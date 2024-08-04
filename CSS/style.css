@@ -161,10 +161,61 @@ body {
 .main-flex {
   position: relative;
   top: 50px;
+  padding-bottom: 100px;
 }
 .cities {
   margin-top: 30px;
 }
 .countries {
   margin: 0px 0;
+}
+
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: rgb(232, 229, 229);
+}
+
+/* Last section */
+.menu-list {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  line-height: 30px;
+}
+
+.logos-wrapper {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+#bottom-logos {
+  display: flex;
+  gap: 1rem;
+}
+
+/*Footer*/
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2rem;
+  margin-left: 80px;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-evenly;
 }
