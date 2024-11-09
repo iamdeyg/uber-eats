@@ -9,7 +9,7 @@ body {
 
 /* Background Image */
 .sec-1 {
-  background-image: url(/assets/images/background.png);
+  background-image: url(../assets/images/background.png);
   height: 100vh;
   background-size: cover;
 }
